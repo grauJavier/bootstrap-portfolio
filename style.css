@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  background: #f7f7f9;
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar__logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.nav__option {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #344563;
+}
+
+#front-page {
+  background-image: url("./visuals/header-background-desktop.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  border-bottom-left-radius: max(10vw, 100px);
+  height: 94vh;
+}
+
+.text-container__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.38px;
+}
+
+.text-container__byline {
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.social-media_icon {
+  height: 20px;
+}
