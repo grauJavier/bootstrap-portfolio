@@ -59,3 +59,43 @@ body {
 .social-media_icon {
   height: 20px;
 }
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+  border: 2px solid #a7aeff;
+}
+
+.card-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.card-subtitle {
+  color: #6b778c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.portfolio__client {
+  color: #344563;
+  font-weight: 500;
+}
+
+.portfolio__bullet {
+  font-size: 20px;
+  color: #c1c7d0;
+}
+
+.badge {
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  background-color: #ebebff;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
