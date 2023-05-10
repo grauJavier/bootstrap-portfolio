@@ -58,7 +58,8 @@ p {
   color: #344563;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: 5px solid #a7aeff;
 }
 
@@ -120,7 +121,6 @@ input:focus, textarea:focus {
 .btn:hover {
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
-
 
 #about {
   border-top-left-radius: max(10vw, 100px);
