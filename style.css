@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-* {
-  box-sizing: border-box;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -16,6 +12,54 @@ textarea {
 body {
   background: #f7f7f9;
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: #091e42;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.38px;
+}
+
+h2 {
+  color: #091e42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+h3 {
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+h4 {
+  color: #6b778c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+h6 {
+  font-weight: 500;
+  line-height: 20px;
+}
+
+p {
+  color: #344563;
+}
+
+input:focus, textarea:focus {
+  outline: 5px solid #a7aeff;
 }
 
 #navbar__logo {
@@ -34,7 +78,6 @@ body {
 
 #front-page {
   background-image: url("./visuals/header-background-desktop.png");
-  background-color: #fff;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -42,20 +85,77 @@ body {
   height: 94vh;
 }
 
-.text-container__title {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0.38px;
-}
-
-.text-container__byline {
-  color: #7f8cff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+#front-page p {
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .social-media_icon {
   height: 20px;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
+  border: 2px solid #a7aeff;
+}
+
+.portfolio__client {
+  color: #344563;
+  font-weight: 500;
+}
+
+.portfolio__bullet {
+  font-size: 20px;
+  color: #c1c7d0;
+}
+
+.badge {
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  background-color: #ebebff;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+
+#about {
+  border-top-left-radius: max(10vw, 100px);
+  height: 72vh;
+}
+
+.language-icon {
+  width: 48px;
+  height: auto;
+}
+
+#contact {
+  background-color: #6070ff;
+  background-image: url("./visuals/contact-me-background-desktop.png");
+  background-position: center;
+  background-size: 89.6vw;
+  border-top-left-radius: max(10vw, 100px);
+  box-shadow: 0 -160px #fff;
+  height: 90vh;
+}
+
+#contact p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+#contact .btn {
+  color: #6070ff;
+  background-color: #fff;
+}
+
+#contact .btn:active {
+  border: 1px solid #2230d2;
+  background: #2230d2;
+  color: #fff;
 }
