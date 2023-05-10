@@ -121,11 +121,12 @@ Deployment link: https://graujavier.github.io/my-first-portfolio/
 👤 **Javier Grau**
 - GitHub: [@grauJavier](https://github.com/grauJavier)
 - Twitter: [@jgrauchile](https://twitter.com/jgrauchile)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/javiergrau)
+- LinkedIn: [@javiergrau](https://www.linkedin.com/in/javiergrau)
 
-👤 **Randall Bonilla**
-- GitHub: [@greetycr](https://github.com/GreetyCr)  
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/randall-bonilla-cordero-8653a6220/)
+👤 **Dany AUGUSTIN**
+- GitHub: [@amiralda](https://github.com/amiralda)
+- Twitter: [@amiralda](https://twitter.com/amiralda)
+- LinkedIn: [@dany-augustin](https://www.linkedin.com/in/dany-augustin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
